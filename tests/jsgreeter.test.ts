@@ -9,11 +9,11 @@ describe("the JavaScriptGreeter class", () => {
   test("the greet function was overridden and works properly", () => {
     const greeter = new JavaScriptGreeter("Hello");
     const result = greeter.greet("Jennifer");
-    expect(result).toBe("console.log(Hello, Jennifer!)");
+    expect(result).toBe("console.log('Hello, Jennifer!')");
   });
   test("the greet function was overridden and works properly with alternative name and greeting", () => {
     const greeter = new JavaScriptGreeter("How are you");
     const result = greeter.greet("Adam");
-    expect(result).toBe("console.log(How are you, Adam!)");
+    expect(result).toBe("console.log('How are you, Adam!')");
   });
 });

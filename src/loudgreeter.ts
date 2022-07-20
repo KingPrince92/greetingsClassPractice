@@ -1,7 +1,7 @@
 import { Greeter } from "../src/greeter";
 
 class LoudGreeter extends Greeter {
-  private extra: string = "!";
+  private extra: string = "!!";
   constructor(greeting: string) {
     super(greeting);
   }
